@@ -1,0 +1,54 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: cornflowerblue;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#status {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #2e2e2e;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #444;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
